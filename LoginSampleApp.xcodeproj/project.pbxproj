@@ -14,6 +14,7 @@
 		63A6EE202944BCF900E442EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A6EE1E2944BCF900E442EA /* LaunchScreen.storyboard */; };
 		63A6EE292946143400E442EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE282946143400E442EA /* LoginViewController.swift */; };
 		63A6EE2B29461CBF00E442EA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE2A29461CBF00E442EA /* EnterEmailViewController.swift */; };
+		63A6EE2D2946224000E442EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE2C2946224000E442EA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		63A6EE212944BCF900E442EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A6EE282946143400E442EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63A6EE2A29461CBF00E442EA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		63A6EE2C2946224000E442EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				63A6EE282946143400E442EA /* LoginViewController.swift */,
 				63A6EE2A29461CBF00E442EA /* EnterEmailViewController.swift */,
+				63A6EE2C2946224000E442EA /* MainViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				63A6EE142944BCF800E442EA /* AppDelegate.swift in Sources */,
 				63A6EE2B29461CBF00E442EA /* EnterEmailViewController.swift in Sources */,
 				63A6EE162944BCF800E442EA /* SceneDelegate.swift in Sources */,
+				63A6EE2D2946224000E442EA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
