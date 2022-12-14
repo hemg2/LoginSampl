@@ -15,9 +15,12 @@
 		63A6EE292946143400E442EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE282946143400E442EA /* LoginViewController.swift */; };
 		63A6EE2B29461CBF00E442EA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE2A29461CBF00E442EA /* EnterEmailViewController.swift */; };
 		63A6EE2D2946224000E442EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE2C2946224000E442EA /* MainViewController.swift */; };
+		63A6EE3129497C5E00E442EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63A6EE3029497C5E00E442EA /* GoogleService-Info.plist */; };
+		BC342BAC34221D0CCBE6DB2D /* Pods_LoginSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C60EFF4017EB45445A2D275 /* Pods_LoginSampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C60EFF4017EB45445A2D275 /* Pods_LoginSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A6EE102944BCF800E442EA /* LoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A6EE132944BCF800E442EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A6EE152944BCF800E442EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,9 @@
 		63A6EE282946143400E442EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63A6EE2A29461CBF00E442EA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		63A6EE2C2946224000E442EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63A6EE3029497C5E00E442EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E266237BF51BC943426BCD8 /* Pods-LoginSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-LoginSampleApp/Pods-LoginSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8236F31338ACF1FD41B89537 /* Pods-LoginSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampleApp.release.xcconfig"; path = "Target Support Files/Pods-LoginSampleApp/Pods-LoginSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC342BAC34221D0CCBE6DB2D /* Pods_LoginSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				63A6EE122944BCF800E442EA /* LoginSampleApp */,
 				63A6EE112944BCF800E442EA /* Products */,
+				B9A4E081417B0B59A7CA2D0E /* Pods */,
+				C448EF7EF485FB9C3DC68AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +76,7 @@
 				63A6EE1C2944BCF900E442EA /* Assets.xcassets */,
 				63A6EE1E2944BCF900E442EA /* LaunchScreen.storyboard */,
 				63A6EE212944BCF900E442EA /* Info.plist */,
+				63A6EE3029497C5E00E442EA /* GoogleService-Info.plist */,
 			);
 			path = LoginSampleApp;
 			sourceTree = "<group>";
@@ -81,6 +91,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B9A4E081417B0B59A7CA2D0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E266237BF51BC943426BCD8 /* Pods-LoginSampleApp.debug.xcconfig */,
+				8236F31338ACF1FD41B89537 /* Pods-LoginSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C448EF7EF485FB9C3DC68AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C60EFF4017EB45445A2D275 /* Pods_LoginSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A6EE242944BCF900E442EA /* Build configuration list for PBXNativeTarget "LoginSampleApp" */;
 			buildPhases = (
+				4F6C4DEC48790CD51DD49890 /* [CP] Check Pods Manifest.lock */,
 				63A6EE0C2944BCF800E442EA /* Sources */,
 				63A6EE0D2944BCF800E442EA /* Frameworks */,
 				63A6EE0E2944BCF800E442EA /* Resources */,
+				D56CB0585D1EB9AB3484F3B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,12 +170,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A6EE202944BCF900E442EA /* LaunchScreen.storyboard in Resources */,
+				63A6EE3129497C5E00E442EA /* GoogleService-Info.plist in Resources */,
 				63A6EE1D2944BCF900E442EA /* Assets.xcassets in Resources */,
 				63A6EE1B2944BCF800E442EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F6C4DEC48790CD51DD49890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56CB0585D1EB9AB3484F3B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSampleApp/Pods-LoginSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSampleApp/Pods-LoginSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginSampleApp/Pods-LoginSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63A6EE0C2944BCF800E442EA /* Sources */ = {
@@ -298,6 +371,7 @@
 		};
 		63A6EE252944BCF900E442EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E266237BF51BC943426BCD8 /* Pods-LoginSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +399,7 @@
 		};
 		63A6EE262944BCF900E442EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8236F31338ACF1FD41B89537 /* Pods-LoginSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
