@@ -97,7 +97,6 @@
 				6E266237BF51BC943426BCD8 /* Pods-LoginSampleApp.debug.xcconfig */,
 				8236F31338ACF1FD41B89537 /* Pods-LoginSampleApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
