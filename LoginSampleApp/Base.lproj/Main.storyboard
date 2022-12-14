@@ -203,7 +203,7 @@
         <!--Main View Controller-->
         <scene sceneID="DiI-R7-e6K">
             <objects>
-                <viewController id="ZRh-5X-vzp" customClass="MainViewController" customModule="LoginSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="ZRh-5X-vzp" customClass="MainViewController" customModule="LoginSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5W5-l4-mh8">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
